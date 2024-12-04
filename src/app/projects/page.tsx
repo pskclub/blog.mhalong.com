@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoGolang from '@/images/logos/golang.svg'
+import logoIgetdorm from '@/images/logos/igetdorm.png'
 
 const projects = [
   {
@@ -15,6 +16,12 @@ const projects = [
       label: 'github.com/pskclub/mine-core',
     },
     logo: logoGolang,
+  },
+  {
+    name: 'iGetDorm',
+    description:
+      'A dormitory information platform for KMITL students, helping them find accommodation near campus. The project was recognized as a top 8 finalist in Krungsri Uni Startup competition.',
+    logo: logoIgetdorm,
   },
 ]
 
@@ -51,21 +58,21 @@ export default function Projects () {
               <Image
                 src={project.logo}
                 alt=""
-                className="h-8 w-8"
+                className="h-8 w-8 rounded-full"
                 unoptimized
               />
             </div>
             <h2
               className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-              <Card.Link target={'_blank'}
-                         href={project.link.href}>{project.name}</Card.Link>
+              <Card.Link target={ project.link ?'_blank' : ''} href={project.link?.href ||
+                '#'}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
-            <p
+            {project.link && <p
               className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
               <LinkIcon className="h-6 w-6 flex-none"/>
               <span className="ml-2">{project.link.label}</span>
-            </p>
+            </p>}
           </Card>
         ))}
       </ul>
