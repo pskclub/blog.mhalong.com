@@ -62,7 +62,7 @@ export function ArticleLayout ({
                 <span className="ml-3">{formatDate(article.created_at)}</span>
               </time>
             </header>
-            {article.tags && <div className={'flex gap-3 mt-3 mb-6'}>
+            {article.tags && <div className={'flex gap-3 mt-3 mb-6 flex-wrap'}>
               {(article.tags || []).map((v) => <span
                 className="inline-flex items-center text-xs font-medium">#{v}</span>)
               }
