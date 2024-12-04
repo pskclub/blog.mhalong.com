@@ -20,6 +20,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { ArticleList } from '@/components/ArticleList'
+import { Button } from '@/components/Button'
 
 function BriefcaseIcon (props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -175,11 +176,11 @@ function Resume () {
           <Role key={roleIndex} role={role}/>
         ))}
       </ol>
-      {/*<Button href="#" variant="secondary" className="group mt-6 w-full">*/}
-      {/*  Download CV*/}
-      {/*  <ArrowDownIcon*/}
-      {/*    className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>*/}
-      {/*</Button>*/}
+      <Button download={'Passakon_Puttasuwan_CV.pdf'} href="/cv.pdf" variant="secondary" className="group mt-6 w-full">
+        Download CV
+        <ArrowDownIcon
+          className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
+      </Button>
     </div>
   )
 }
