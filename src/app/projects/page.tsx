@@ -22,6 +22,10 @@ const projects = [
     description:
       'A dormitory information platform for KMITL students, helping them find accommodation near campus. The project was recognized as a top 8 finalist in Krungsri Uni Startup competition.',
     logo: logoIgetdorm,
+    link: {
+      href: 'https://www.facebook.com/igetdorm',
+      label: 'facebook.com/igetdorm',
+    },
   },
 ]
 
