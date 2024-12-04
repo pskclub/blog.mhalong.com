@@ -62,8 +62,14 @@ export function ArticleLayout ({
                 <span className="ml-3">{formatDate(article.created_at)}</span>
               </time>
             </header>
+            {article.tags && <div className={'flex gap-3 mt-3 mb-6'}>
+              {(article.tags || []).map((v) => <span
+                className="inline-flex items-center text-xs font-medium">#{v}</span>)
+              }
+            </div>}
             {article.cover_image &&
-              <img src={article.cover_image} alt={article.title} className={'rounded mt-4'}/>}
+              <img src={article.cover_image} alt={article.title}
+                   className={'rounded mt-4'}/>}
             <Prose className="mt-8"
                    dangerouslySetInnerHTML={{ __html: article.body_html }}/>
           </article>

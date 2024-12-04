@@ -16,6 +16,11 @@ function Article ({ article }: { article: Article }) {
         {formatDate(article.created_at)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
+      {article.tag_list && <div className={'flex gap-3 mt-3'}>
+        {(article.tag_list || []).map((v) => <span
+          className="inline-flex items-center text-xs font-medium">#{v}</span>)
+        }
+      </div>}
       <Card.Cta>Read article</Card.Cta>
     </Card>
   )
@@ -37,6 +42,11 @@ function ArticleMain ({ article }: { article: Article }) {
           {formatDate(article.created_at)}
         </Card.Eyebrow>
         <Card.Description>{article.description}</Card.Description>
+        {article.tag_list && <div className={'flex gap-3 mt-3'}>
+          {(article.tag_list || []).map((v) => <span
+            className="inline-flex items-center text-xs font-medium">#{v}</span>)
+          }
+        </div>}
         <Card.Cta>Read article</Card.Cta>
       </Card>
       <Card.Eyebrow
