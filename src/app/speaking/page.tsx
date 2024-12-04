@@ -53,7 +53,7 @@ export default function Speaking () {
       intro="I enjoy speaking at technical meetups as it allows me to share experiences and connect with fellow developers. These events have given me a platform to share knowledge while gaining new perspectives from others."
     >
       <div className="space-y-20">
-        <SpeakingSection title="Conference & Meetup Talks">
+        <SpeakingSection title="Conference & Meetup">
           <Appearance
             href="#"
             title="Experience Stories"
