@@ -3,6 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import {
+  FacebookIcon,
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
@@ -230,6 +231,10 @@ export default async function Home () {
             pipelines.
           </p>
           <div className="mt-6 flex gap-6">
+            <SocialLink href="https://www.facebook.com/mhalongcom"
+                        icon={FacebookIcon} className="mt-4">
+              Follow on Facebook
+            </SocialLink>
             <SocialLink
               href="https://www.instagram.com/pskclub"
               aria-label="Follow on Instagram"
