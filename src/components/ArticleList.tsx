@@ -21,7 +21,10 @@ function Article ({ article }: { article: Article }) {
           className="inline-flex items-center text-xs font-medium">#{v}</span>)
         }
       </div>}
-      <Card.Cta>Read article</Card.Cta>
+      <div className={'flex justify-between items-end w-full'}>
+        <Card.Cta>Read article</Card.Cta>
+        <p className={'text-xs text-zinc-600 dark:text-zinc-400'}>{article.reading_time_minutes} min read</p>
+      </div>
     </Card>
   )
 }
@@ -47,7 +50,10 @@ function ArticleMain ({ article }: { article: Article }) {
             className="inline-flex items-center text-xs font-medium">#{v}</span>)
           }
         </div>}
-        <Card.Cta>Read article</Card.Cta>
+        <div className={'flex justify-between items-end w-full'}>
+          <Card.Cta>Read article</Card.Cta>
+          <p className={'text-xs text-zinc-600 dark:text-zinc-400'}>{article.reading_time_minutes} min read</p>
+        </div>
       </Card>
       <Card.Eyebrow
         as="time"
