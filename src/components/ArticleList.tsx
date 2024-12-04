@@ -12,8 +12,8 @@ function Article ({ article }: { article: Article }) {
       <Card.Title href={`/articles/${article.slug}`}>
         {article.title}
       </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.created_at} decorate>
-        {formatDate(article.created_at)}
+      <Card.Eyebrow as="time" dateTime={article.published_at} decorate>
+        {formatDate(article.published_at)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
       {article.tag_list && <div className={'flex flex-wrap gap-3 mt-3 relative'}>
@@ -38,11 +38,11 @@ function ArticleMain ({ article }: { article: Article }) {
         </Card.Title>
         <Card.Eyebrow
           as="time"
-          dateTime={article.created_at}
+          dateTime={article.published_at}
           className="md:hidden"
           decorate
         >
-          {formatDate(article.created_at)}
+          {formatDate(article.published_at)}
         </Card.Eyebrow>
         <Card.Description>{article.description}</Card.Description>
         {article.tag_list && <div className={'flex gap-3 mt-3 flex-wrap relative'}>
@@ -57,10 +57,10 @@ function ArticleMain ({ article }: { article: Article }) {
       </Card>
       <Card.Eyebrow
         as="time"
-        dateTime={article.created_at}
+        dateTime={article.published_at}
         className="mt-1 hidden md:block"
       >
-        {formatDate(article.created_at)}
+        {formatDate(article.published_at)}
       </Card.Eyebrow>
     </article>
   )

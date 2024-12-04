@@ -54,12 +54,12 @@ export function ArticleLayout ({
                 {article.title}
               </h1>
               <time
-                dateTime={article.created_at}
+                dateTime={article.published_at}
                 className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
               >
                 <span
                   className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"/>
-                <span className="ml-3">{formatDate(article.created_at)}</span>
+                <span className="ml-3">{formatDate(article.published_at)}</span>
               </time>
             </header>
             {article.tags && <div className={'flex gap-3 mt-3 mb-6 flex-wrap'}>
