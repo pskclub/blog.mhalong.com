@@ -1,15 +1,11 @@
 import Image, { type ImageProps } from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-
-import { Button } from '@/components/Button'
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  XIcon,
 } from '@/components/SocialIcons'
 
 import finemaImage from '@/images/work/finema.png'
@@ -22,8 +18,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
-import { formatDate } from '@/lib/formatDate'
+import { ArticleList } from '@/components/ArticleList'
 
 function BriefcaseIcon (props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -58,21 +53,6 @@ function ArrowDownIcon (props: React.ComponentPropsWithoutRef<'svg'>) {
         strokeLinejoin="round"
       />
     </svg>
-  )
-}
-
-function Article ({ article }: { article: ArticleWithSlug }) {
-  return (
-    <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.date} decorate>
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-      <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
-    </Card>
   )
 }
 
@@ -111,7 +91,8 @@ function Role ({ role }: { role: Role }) {
     <li className="flex gap-4">
       <div
         className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-        <Image src={role.logo} alt="" className="h-7 w-7 rounded-full" unoptimized/>
+        <Image src={role.logo} alt="" className="h-7 w-7 rounded-full"
+               unoptimized/>
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
@@ -137,7 +118,6 @@ function Role ({ role }: { role: Role }) {
     </li>
   )
 }
-
 
 function Resume () {
   let resume: Array<Role> = [
@@ -232,7 +212,6 @@ function Photos () {
 }
 
 export default async function Home () {
-  // let articles = (await getAllArticles()).slice(0, 4)
 
   return (
     <>
@@ -271,18 +250,15 @@ export default async function Home () {
       </Container>
       <Photos/>
       <Container className="mt-24 md:mt-28">
-        <Resume/>
-      {/*  <div
+        <div
           className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article}/>
-            ))}
+            <ArticleList max={3}/>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Resume/>
           </div>
-        </div>*/}
+        </div>
       </Container>
     </>
   )
