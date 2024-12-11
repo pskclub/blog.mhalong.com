@@ -1,0 +1,169 @@
+{
+  "en": {
+    "home": {
+      "description": "I’m Passakon, Experienced Full Stack Engineer with extensive expertise in backend development using Golang and frontend development with Vue.js/Nuxt.js. Proven track record in implementing DevOps practices and building scalable enterprise solutions. Strong focus on system architecture, code quality, and automated deployment pipelines."
+    },
+    "projects": {
+      "title": "Building tools and applications that solve real problems.",
+      "intro": "Over the years, I've worked on various development projects focusing on performance, scalability, and user experience. Most of my work involves full-stack development, DevOps practices, and system architecture. Here are some projects that represent my journey and growth as a developer."
+    },
+    "speaking": {
+      "title": "I've had the opportunity to speak at various tech events and meetups.",
+      "intro": "I enjoy speaking at technical meetups as it allows me to share experiences and connect with fellow developers. These events have given me a platform to share knowledge while gaining new perspectives from others.",
+      "sections": {
+        "conference": "Conference & Meetup"
+      },
+      "appearances": {
+        "experience": {
+          "title": "Experience Stories",
+          "description": "Shared real-world development experiences and career insights with computer science students, focusing on practical lessons and career preparation in the software industry.",
+          "event": "CSCamp @KMITL"
+        },
+        "microfrontend": {
+          "title": "มาลองดูซิ Micro-frontend เป็นไปได้จริงไหม?",
+          "description": "Explored the possibilities and practical implementation of Micro-frontend architecture, discussing its benefits, challenges, and real-world applications in modern web development.",
+          "event": "Vue.js Thailand Meetup #4"
+        },
+        "sentry": {
+          "title": "Vue Error Logging to Sentry",
+          "description": "Demonstrated effective error tracking and monitoring in Vue.js applications using Sentry, covering implementation strategies and best practices for production applications.",
+          "event": "Vue.js Thailand Meetup #5"
+        },
+        "typescript": {
+          "title": "Vue.js with TypeScript",
+          "description": "Shared insights on integrating TypeScript with Vue.js, highlighting type safety benefits, development workflow improvements, and practical implementation techniques.",
+          "event": "TypeScript Thailand Meetup #1"
+        }
+      }
+    },
+    "articles": {
+      "title": "Writing about software development, system architecture, and tech experiences.",
+      "intro": "All of my thoughts on full-stack development, DevOps practices, and software engineering experiences, collected in chronological order."
+    },
+    "about": {
+      "title": "I'm Passakon. Software Engineer & Full Stack Developer",
+      "intro": {
+        "p1": "With over 6 years of experience in software development, I've evolved from a Software developer to a technical specialist who bridges the gap between complex backend systems and intuitive frontend experiences. My journey has been driven by a constant desire to learn and master new technologies.",
+        "p2": "Currently, I'm working as a Technical Specialist at Finema, where I develop enterprise-grade solutions and lead technical implementations. My role involves architecting scalable systems, developing core libraries, and establishing robust development practices."
+      },
+      "whatIDo": {
+        "title": "What I Do",
+        "intro": "I specialize in building full-stack applications with a focus on:",
+        "skills": {
+          "backend": "Developing scalable backend services using Golang and microservices architecture",
+          "frontend": "Creating responsive and performant frontend applications with Vue.js and Nuxt.js",
+          "devops": "Implementing DevOps practices with Docker, Kubernetes, and CI/CD pipelines",
+          "database": "Designing and optimizing database structures and queries",
+          "leadership": "Leading technical implementations and mentoring team members"
+        }
+      },
+      "beyondCoding": {
+        "title": "Beyond Coding",
+        "content": "I believe in continuous learning and sharing knowledge with the developer community. When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest industry trends."
+      },
+      "quote": "\"You're not untalented; you're just untrained.\" - This philosophy drives my approach to both personal growth and team development.",
+      "connect": {
+        "title": "Let's Connect",
+        "content": "I'm always interested in discussing new opportunities, technical challenges, or just connecting with fellow developers. Feel free to reach out to me through"
+      },
+      "social": {
+        "facebook": "Follow on Facebook",
+        "instagram": "Follow on Instagram",
+        "github": "Follow on GitHub",
+        "linkedin": "Follow on LinkedIn"
+      }
+    },
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "articles": "Articles",
+      "projects": "Projects",
+      "speaking": "Speaking",
+      "uses": "Uses"
+    }
+  },
+  "th": {
+    "home": {
+      "description": "ผมภาสกร เป็น Full Stack Engineer ที่มีประสบการณ์และความเชี่ยวชาญในด้านการพัฒนา backend ด้วย Golang และการพัฒนา frontend ด้วย Vue.js/Nuxt.js และมีผลงานที่พิสูจน์แล้วในการนำแนวทาง DevOps มาใช้และสร้างโซลูชันระดับองค์กรที่สามารถขยายตัวได้ มุ่งเน้นด้านสถาปัตยกรรมระบบ คุณภาพโค้ด และระบบอัตโนมัติสำหรับการ deploy"
+    },
+    "projects": {
+      "title": "สร้างเครื่องมือและแอปพลิเคชันที่แก้ปัญหาจริง",
+      "intro": "ตลอดระยะเวลาที่ผ่านมา ผมได้ทำงานในโครงการพัฒนาต่างๆ โดยมุ่งเน้นเรื่องประสิทธิภาพ ความสามารถในการ scale และประสบการณ์ผู้ใช้ งานส่วนใหญ่ของผมเกี่ยวข้องกับการพัฒนาแบบ fullstack การทำ DevOps และการออกแบบระบบ นี่คือบางโครงการที่แสดงถึงการการเติบโตของผมในฐานะนักพัฒนา"
+    },
+    "speaking": {
+      "title": "ผมได้มีโอกาสบรรยายในงานเทคโนโลยีและงาน Meetup ต่างๆ",
+      "intro": "ผมชอบการพูดในงาน Meetup ด้านเทคนิค เพราะทำให้ผมได้แบ่งปันประสบการณ์และเชื่อมต่อกับเพื่อนนักพัฒนา งานเหล่านี้เป็นเวทีให้ผมได้แบ่งปันความรู้ในขณะที่ได้รับมุมมองใหม่ๆ จากผู้อื่น",
+      "sections": {
+        "conference": "การประชุมและ Meetup "
+      },
+      "appearances": {
+        "experience": {
+          "title": "Experience Stories",
+          "description": "แบ่งปันประสบการณ์การพัฒนาจริงและข้อคิดในการทำงานให้กับนักศึกษาคอมพิวเตอร์ โดยเน้นที่บทเรียนภาคปฏิบัติและการเตรียมตัวสำหรับอาชีพในอุตสาหกรรมซอฟต์แวร์",
+          "event": "CSCamp @KMITL"
+        },
+        "microfrontend": {
+          "title": "มาลองดูซิ Micro-frontend เป็นไปได้จริงไหม?",
+          "description": "สำรวจความเป็นไปได้และการนำสถาปัตยกรรม Micro-frontend ไปใช้งานจริง พร้อมพูดคุยเกี่ยวกับข้อดี ความท้าทาย และการประยุกต์ใช้ในการพัฒนาเว็บสมัยใหม่",
+          "event": "Vue.js Thailand Meetup #4"
+        },
+        "sentry": {
+          "title": "Vue Error Logging to Sentry",
+          "description": "สาธิตการติดตามและตรวจสอบข้อผิดพลาดในแอปพลิเคชัน Vue.js โดยใช้ Sentry พร้อมแนวทางการนำไปใช้และแนวปฏิบัติที่ดีสำหรับแอปพลิเคชันที่ใช้งานจริง",
+          "event": "Vue.js Thailand Meetup #5"
+        },
+        "typescript": {
+          "title": "Vue.js with TypeScript",
+          "description": "แบ่งปันความรู้เกี่ยวกับการใช้ TypeScript ร่วมกับ Vue.js เน้นประโยชน์ด้านความปลอดภัยของ type การปรับปรุงขั้นตอนการพัฒนา และเทคนิคการนำไปใช้งานจริง",
+          "event": "TypeScript Thailand Meetup #1"
+        }
+      }
+    },
+    "articles": {
+      "title": "เขียนบทความเกี่ยวกับการพัฒนาซอฟต์แวร์ สถาปัตยกรรมระบบ และประสบการณ์ด้านเทคโนโลยี",
+      "intro": "รวบรวมความคิดทั้งหมดของผมเกี่ยวกับการพัฒนาแบบฟูลสแต็ก การทำ DevOps และประสบการณ์ด้านวิศวกรรมซอฟต์แวร์ เรียงตามลำดับเวลา"
+    },
+    "about": {
+      "title": "ผมภาสกร เป็น Full Stack Engineer และ Software Developer",
+      "intro": {
+        "p1": "ด้วยประสบการณ์กว่า 6 ปีในการพัฒนาซอฟต์แวร์ ผมได้พัฒนาตัวเองจากนักพัฒนาซอฟแวร์สู่ผู้เชี่ยวชาญด้านเทคนิคที่เชื่อมช่องว่างระหว่างระบบ Backend ที่ซับซ้อนกับประสบการณ์ผู้ใช้ที่เข้าใจง่าย การเดินทางของผมขับเคลื่อนด้วยความต้องการที่จะเรียนรู้และเชี่ยวชาญเทคโนโลยีใหม่ๆ อยู่เสมอ",
+        "p2": "ปัจจุบันผมทำงานเป็นผู้เชี่ยวชาญด้านเทคนิคที่ Finema ที่ซึ่งผมพัฒนาโซลูชันระดับองค์กรและนำการพัฒนาด้านเทคนิค บทบาทของผมเกี่ยวข้องกับการออกแบบระบบที่สามารถ scale ได้ การพัฒนาไลบรารี่หลัก และการสร้างแนวทางการพัฒนาที่แข็งแกร่ง"
+      },
+      "whatIDo": {
+        "title": "สิ่งที่ผมทำ",
+        "intro": "ผมเชี่ยวชาญในการสร้างแอปพลิเคชันแบบ Full Stack โดยเน้นที่:",
+        "skills": {
+          "backend": "พัฒนา Backend ที่ scale ได้โดยใช้ Golang และสถาปัตยกรรมไมโครเซอร์วิส",
+          "frontend": "สร้างแอปพลิเคชัน Frontend ที่ตอบสนองและมีประสิทธิภาพด้วย Vue.js และ Nuxt.js",
+          "devops": "นำแนวทาง DevOps มาใช้ด้วย Docker, Kubernetes และระบบ CI/CD",
+          "database": "ออกแบบและปรับปรุงโครงสร้างฐานข้อมูลและการค้นหาข้อมูล",
+          "leadership": "นำการพัฒนาด้านเทคนิคและเป็นพี่เลี้ยงให้สมาชิกในทีม"
+        }
+      },
+      "beyondCoding": {
+        "title": "นอกเหนือจากการเขียนโค้ด",
+        "content": "ผมเชื่อในการเรียนรู้อย่างต่อเนื่องและการแบ่งปันความรู้กับชุมชนนักพัฒนา เมื่อไม่ได้เขียนโค้ด ผมชอบสำรวจเทคโนโลยีใหม่ๆ มีส่วนร่วมในโปรเจกต์โอเพนซอร์ส และติดตามแนวโน้มล่าสุดในอุตสาหกรรม"
+      },
+      "quote": "\"คุณไม่ได้ไม่เก่ง คุณแค่ยังไม่ฝึก\" - ปรัชญานี้ขับเคลื่อนแนวทางของผมทั้งในการพัฒนาตนเองและการพัฒนาทีม",
+
+      "connect": {
+        "title": "มาพุดคุยกัน",
+        "content": "ผมสนใจที่จะพูดคุยเกี่ยวกับโอกาสใหม่ๆ ความท้าทายทางเทคนิค หรือแค่พูดคุยกับเพื่อนนักพัฒนา อย่าลังเลที่จะติดต่อผมผ่าน"
+      },
+      "social": {
+        "facebook": "ติดตามบน Facebook",
+        "instagram": "ติดตามบน Instagram",
+        "github": "ติดตามบน GitHub",
+        "linkedin": "ติดตามบน LinkedIn"
+      }
+    },
+    "menu": {
+      "home": "หน้าแรก",
+      "about": "เกี่ยวกับ",
+      "articles": "บทความ",
+      "projects": "ผลงาน",
+      "speaking": "บรรยาย",
+      "uses": "เครื่องมือ"
+    }
+  }
+}

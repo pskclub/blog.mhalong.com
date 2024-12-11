@@ -16,14 +16,17 @@ function Article ({ article }: { article: Article }) {
         {formatDate(article.published_at)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      {article.tag_list && <div className={'flex flex-wrap gap-3 mt-3 relative'}>
-        {(article.tag_list || []).map((v) => <span
-          className="inline-flex items-center text-xs font-medium">#{v}</span>)
-        }
-      </div>}
+      {article.tag_list &&
+        <div className={'flex flex-wrap gap-3 mt-3 relative'}>
+          {(article.tag_list || []).map((v) => <span key={v}
+                                                     className="inline-flex items-center text-xs font-medium">#{v}</span>)
+          }
+        </div>}
       <div className={'flex justify-between items-end w-full'}>
         <Card.Cta>Read article</Card.Cta>
-        <p className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min read</p>
+        <p
+          className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min
+          read</p>
       </div>
     </Card>
   )
@@ -45,14 +48,17 @@ function ArticleMain ({ article }: { article: Article }) {
           {formatDate(article.published_at)}
         </Card.Eyebrow>
         <Card.Description>{article.description}</Card.Description>
-        {article.tag_list && <div className={'flex gap-3 mt-3 flex-wrap relative'}>
-          {(article.tag_list || []).map((v) => <span
-            className="inline-flex items-center text-xs font-medium">#{v}</span>)
-          }
-        </div>}
+        {article.tag_list &&
+          <div className={'flex gap-3 mt-3 flex-wrap relative'}>
+            {(article.tag_list || []).map((v) => <span
+              className="inline-flex items-center text-xs font-medium">#{v}</span>)
+            }
+          </div>}
         <div className={'flex justify-between items-end w-full'}>
           <Card.Cta>Read article</Card.Cta>
-          <p className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min read</p>
+          <p
+            className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min
+            read</p>
         </div>
       </Card>
       <Card.Eyebrow
@@ -76,7 +82,7 @@ export function ArticleList ({ max, isMain }: {
   )
   return isMain ? (data || []).
     map((article) => (
-      <ArticleMain key={article.slug} article={article}/>
+      <ArticleMain key={article.id} article={article}/>
     )) : (data || []).slice(0, max || (data || []).length).map((article) => (
     <Article key={article.slug} article={article}/>
   ))

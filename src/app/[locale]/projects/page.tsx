@@ -5,6 +5,8 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoGolang from '@/images/logos/golang.svg'
 import logoIgetdorm from '@/images/logos/igetdorm.png'
+import { setRequestLocale } from 'next-intl/server'
+import { useTranslations } from 'next-intl'
 
 const projects = [
   {
@@ -45,11 +47,15 @@ export const metadata: Metadata = {
   description: 'Building tools and applications that solve real problems.',
 }
 
-export default function Projects () {
+export default function Projects ({ params: { locale } }: {
+  params: { locale: string }
+}) {
+  setRequestLocale(locale)
+  const t = useTranslations('projects')
   return (
     <SimpleLayout
-      title="Building tools and applications that solve real problems."
-      intro="Over the years, I've worked on various development projects focusing on performance, scalability, and user experience. Most of my work involves full-stack development, DevOps practices, and system architecture. Here are some projects that represent my journey and growth as a developer."
+      title={t("title")}
+      intro={t("intro")}
     >
       <ul
         role="list"
@@ -68,8 +74,9 @@ export default function Projects () {
             </div>
             <h2
               className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-              <Card.Link target={ project.link ?'_blank' : ''} href={project.link?.href ||
-                '#'}>{project.name}</Card.Link>
+              <Card.Link target={project.link ? '_blank' : ''}
+                         href={project.link?.href ||
+                           '#'}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
             {project.link && <p
