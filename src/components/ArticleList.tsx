@@ -5,8 +5,10 @@ import useSWR from 'swr'
 import { fetcher } from '@/hooks/fetcher'
 import { Card } from '@/components/Card'
 import { formatDate } from '@/lib/formatDate'
+import { useTranslations } from 'next-intl'
 
 function Article ({ article }: { article: Article }) {
+  const t = useTranslations('articles')
   return (
     <Card as="article">
       <Card.Title href={`/articles/${article.slug}`}>
@@ -23,16 +25,16 @@ function Article ({ article }: { article: Article }) {
           }
         </div>}
       <div className={'flex justify-between items-end w-full'}>
-        <Card.Cta>Read article</Card.Cta>
+        <Card.Cta>{t('read')}</Card.Cta>
         <p
-          className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min
-          read</p>
+          className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} {t('min_read')}</p>
       </div>
     </Card>
   )
 }
 
 function ArticleMain ({ article }: { article: Article }) {
+  const t = useTranslations('articles')
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">
       <Card className="md:col-span-3">
@@ -55,10 +57,9 @@ function ArticleMain ({ article }: { article: Article }) {
             }
           </div>}
         <div className={'flex justify-between items-end w-full'}>
-          <Card.Cta>Read article</Card.Cta>
+          <Card.Cta>{t('read')}</Card.Cta>
           <p
-            className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} min
-            read</p>
+            className={'text-xs text-zinc-600 dark:text-zinc-400 relative'}>{article.reading_time_minutes} {t('min_read')}</p>
         </div>
       </Card>
       <Card.Eyebrow

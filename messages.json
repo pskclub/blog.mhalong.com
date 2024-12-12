@@ -1,7 +1,9 @@
 {
   "en": {
     "home": {
-      "description": "I’m Passakon, Experienced Full Stack Engineer with extensive expertise in backend development using Golang and frontend development with Vue.js/Nuxt.js. Proven track record in implementing DevOps practices and building scalable enterprise solutions. Strong focus on system architecture, code quality, and automated deployment pipelines."
+      "description": "I’m Passakon, Experienced Full Stack Engineer with extensive expertise in backend development using Golang and frontend development with Vue.js/Nuxt.js. Proven track record in implementing DevOps practices and building scalable enterprise solutions. Strong focus on system architecture, code quality, and automated deployment pipelines.",
+      "download": "Download",
+      "work": "Work"
     },
     "uses": {
       "title": "Software I use, gadgets I love, and other things I recommend.",
@@ -136,7 +138,9 @@
     },
     "articles": {
       "title": "Writing about software development, system architecture, and tech experiences.",
-      "intro": "All of my thoughts on full-stack development, DevOps practices, and software engineering experiences, collected in chronological order."
+      "intro": "All of my thoughts on full-stack development, DevOps practices, and software engineering experiences, collected in chronological order.",
+      "read": "Read Article",
+      "min_read": "min read"
     },
     "about": {
       "title": "I'm Passakon. Software Engineer & Full Stack Developer",
@@ -182,7 +186,9 @@
   },
   "th": {
     "home": {
-      "description": "ผมภาสกร เป็น Full Stack Engineer ที่มีประสบการณ์และความเชี่ยวชาญในด้านการพัฒนา backend ด้วย Golang และการพัฒนา frontend ด้วย Vue.js/Nuxt.js และมีผลงานที่พิสูจน์แล้วในการนำแนวทาง DevOps มาใช้และสร้างโซลูชันระดับองค์กรที่สามารถขยายตัวได้ มุ่งเน้นด้านสถาปัตยกรรมระบบ คุณภาพโค้ด และระบบอัตโนมัติสำหรับการ deploy"
+      "description": "ผมภาสกร เป็น Full Stack Engineer ที่มีประสบการณ์และความเชี่ยวชาญในด้านการพัฒนา backend ด้วย Golang และการพัฒนา frontend ด้วย Vue.js/Nuxt.js และมีผลงานที่พิสูจน์แล้วในการนำแนวทาง DevOps มาใช้และสร้างโซลูชันระดับองค์กรที่สามารถขยายตัวได้ มุ่งเน้นด้านสถาปัตยกรรมระบบ คุณภาพโค้ด และระบบอัตโนมัติสำหรับการ deploy",
+      "download": "ดาวน์โหลด",
+      "work": "ประวัติการทำงาน"
     },
     "projects": {
       "title": "สร้างเครื่องมือและแอปพลิเคชันที่แก้ปัญหาจริง",
@@ -317,7 +323,9 @@
     },
     "articles": {
       "title": "บทความเกี่ยวกับการพัฒนาซอฟต์แวร์ สถาปัตยกรรมระบบ และประสบการณ์ด้านเทคโนโลยี",
-      "intro": "รวบรวมความคิดทั้งหมดของผมเกี่ยวกับการพัฒนาแบบฟูลสแต็ก การทำ DevOps และประสบการณ์ด้านวิศวกรรมซอฟต์แวร์ เรียงตามลำดับเวลา"
+      "intro": "รวบรวมความคิดทั้งหมดของผมเกี่ยวกับการพัฒนาแบบฟูลสแต็ก การทำ DevOps และประสบการณ์ด้านวิศวกรรมซอฟต์แวร์ เรียงตามลำดับเวลา",
+      "read": "อ่านบทความ",
+      "min_read": "นาทีในการอ่าน"
     },
     "about": {
       "title": "ผมภาสกร เป็น Full Stack Engineer และ Software Developer",
