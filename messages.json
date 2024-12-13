@@ -301,22 +301,22 @@
       "appearances": {
         "experience": {
           "title": "Experience Stories",
-          "description": "แบ่งปันประสบการณ์การพัฒนาจริงและข้อคิดในการทำงานให้กับนักศึกษาคอมพิวเตอร์ โดยเน้นที่บทเรียนภาคปฏิบัติและการเตรียมตัวสำหรับอาชีพในอุตสาหกรรมซอฟต์แวร์",
+          "description": "แบ่งปันมุมมองจริงจากการทำงาน และข้อคิดสำหรับนักศึกษาที่กำลังจะเข้าสู่วงการซอฟต์แวร์",
           "event": "CSCamp @KMITL"
         },
         "microfrontend": {
           "title": "มาลองดูซิ Micro-frontend เป็นไปได้จริงไหม?",
-          "description": "สำรวจความเป็นไปได้และการนำสถาปัตยกรรม Micro-frontend ไปใช้งานจริง พร้อมพูดคุยเกี่ยวกับข้อดี ความท้าทาย และการประยุกต์ใช้ในการพัฒนาเว็บสมัยใหม่",
+          "description": "พูดถึงข้อดี ข้อเสีย และวิธีใช้งานจริงของสถาปัตยกรรม Micro-frontend",
           "event": "Vue.js Thailand Meetup #4"
         },
         "sentry": {
           "title": "Vue Error Logging to Sentry",
-          "description": "สาธิตการติดตามและตรวจสอบข้อผิดพลาดในแอปพลิเคชัน Vue.js โดยใช้ Sentry พร้อมแนวทางการนำไปใช้และแนวปฏิบัติที่ดีสำหรับแอปพลิเคชันที่ใช้งานจริง",
+          "description": "วิธีติดตั้ง Sentry เพื่อตรวจสอบข้อผิดพลาดใน Vue.js และแนวปฏิบัติที่แนะนำ",
           "event": "Vue.js Thailand Meetup #5"
         },
         "typescript": {
           "title": "Vue.js with TypeScript",
-          "description": "แบ่งปันความรู้เกี่ยวกับการใช้ TypeScript ร่วมกับ Vue.js เน้นประโยชน์ด้านความปลอดภัยของ type การปรับปรุงขั้นตอนการพัฒนา และเทคนิคการนำไปใช้งานจริง",
+          "description": "ประสบการณ์การใช้ TypeScript กับ Vue.js เพิ่มความปลอดภัยและปรับปรุงการทำงาน",
           "event": "TypeScript Thailand Meetup #1"
         }
       }
