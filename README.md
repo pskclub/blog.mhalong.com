@@ -1,7 +1,6 @@
 [![Backend](https://img.shields.io/badge/Backend-Golang-00ADD8?style=flat-square&logo=go&logoColor=white)](#)
 [![Frontend](https://img.shields.io/badge/Frontend-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](#)
 [![DevOps](https://img.shields.io/badge/DevOps-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](#)
-[![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](#)
 [![Editor](https://img.shields.io/badge/Editor-IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white)](#)
 [![OS](https://img.shields.io/badge/OS-Windows_11-0078D4?style=flat-square&logo=windows&logoColor=white)](#)
 
