@@ -38,6 +38,31 @@
             }
           }
         },
+        "ai": {
+          "title": "AI Development Tools",
+          "tools": {
+            "copilot": {
+              "title": "GitHub Copilot",
+              "description": "An AI pair programmer that intelligently suggests and completes code. Fast, accurate, and incredibly helpful for daily coding tasks."
+            },
+            "chatgpt": {
+              "title": "ChatGPT",
+              "description": "Perfect for brainstorming, debugging, and problem-solving. Particularly useful when stuck or needing fresh perspectives on coding challenges."
+            },
+            "claude": {
+              "title": "Claude",
+              "description": "Excellent for detailed tasks, code review, and step-by-step explanations. Provides thorough and well-structured coding assistance."
+            },
+            "gemini": {
+              "title": "Gemini",
+              "description": "Google's AI that excels at coding and problem-solving. Offers practical and implementable solutions for development challenges."
+            },
+            "codeium": {
+              "title": "Codeium",
+              "description": "Free AI code completion tool that integrates seamlessly with IDEs. Significantly improves coding efficiency and productivity."
+            }
+          }
+        },
         "workstation": {
           "title": "Workstation Hardware",
           "tools": {
@@ -224,6 +249,31 @@
             "edge": {
               "title": "Microsoft Edge",
               "description": "เป็นเบราว์เซอร์ประจำตัวไปแล้ว เร็ว ใช้แรมไม่เยอะ และยังติดตั้งส่วนเสริมของ Chrome ได้"
+            }
+          }
+        },
+        "ai": {
+          "title": "AI Tools ที่ใช้ช่วยเขียนโค้ด",
+          "tools": {
+            "copilot": {
+              "title": "GitHub Copilot",
+              "description": "AI ที่เหมือนมีจูเนียร์มาช่วยเขียนโค้ด ช่วยเสนอแนะและเติมโค้ดได้ฉลาด เร็ว และแม่นยำ"
+            },
+            "chatgpt": {
+              "title": "ChatGPT",
+              "description": "ใช้ช่วยระดมไอเดีย แก้บั๊ก และหาวิธีแก้ปัญหา มีประโยชน์มากตอนติดขัดหรืออยากได้มุมมองใหม่ๆ"
+            },
+            "claude": {
+              "title": "Claude",
+              "description": "เหมาะกับงานที่ต้องการความละเอียด ช่วยเขียนและรีวิวโค้ดได้ดี อธิบายเป็นขั้นตอนชัดเจน"
+            },
+            "gemini": {
+              "title": "Gemini",
+              "description": "AI จาก Google ที่เก่งเรื่องการเขียนโค้ดและแก้ปัญหา ให้คำแนะนำที่ปฏิบัติตามได้จริง"
+            },
+            "codeium": {
+              "title": "Codeium",
+              "description": "AI ช่วยเติมโค้ดใน IDE ฟรีและทำงานได้ดี ช่วยประหยัดเวลาเขียนโค้ดได้เยอะ"
             }
           }
         },

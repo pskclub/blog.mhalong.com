@@ -73,6 +73,24 @@ export default function Uses ({ params: { locale } }: {
           </Tool>
         </ToolsSection>
 
+        <ToolsSection title={t("sections.ai.title")}>
+          <Tool title={t("sections.ai.tools.copilot.title")}>
+            {t("sections.ai.tools.copilot.description")}
+          </Tool>
+          <Tool title={t("sections.ai.tools.chatgpt.title")}>
+            {t("sections.ai.tools.chatgpt.description")}
+          </Tool>
+          <Tool title={t("sections.ai.tools.claude.title")}>
+            {t("sections.ai.tools.claude.description")}
+          </Tool>
+          <Tool title={t("sections.ai.tools.gemini.title")}>
+            {t("sections.ai.tools.gemini.description")}
+          </Tool>
+          <Tool title={t("sections.ai.tools.codeium.title")}>
+            {t("sections.ai.tools.codeium.description")}
+          </Tool>
+        </ToolsSection>
+
         <ToolsSection title={t("sections.workstation.title")}>
           <Tool title={t("sections.workstation.tools.windows.title")}>
             {t("sections.workstation.tools.windows.description")}
