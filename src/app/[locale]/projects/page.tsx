@@ -5,8 +5,10 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoGolang from '@/images/logos/golang.svg'
 import logoIgetdorm from '@/images/logos/igetdorm.png'
+import logoMhalong from '@/images/favicon.png'
 import { setRequestLocale } from 'next-intl/server'
 import { useTranslations } from 'next-intl'
+import { describe } from 'node:test'
 
 const projects = [
   {
@@ -29,6 +31,42 @@ const projects = [
       label: 'facebook.com/igetdorm',
     },
   },
+  {
+    name: 'PaySync',
+    description: 'แบ่งค่าอาหารอย่างยุติธรรม ไม่มีใครเสียเปรียบ',
+    link: {
+      href: 'https://paysync.mhalong.com',
+      label: 'paysync.mhalong.com',
+    },
+    logo: logoMhalong,
+  },
+  {
+    name: 'คำนวณเลขศาสตร์',
+    description: 'วิเคราะห์ชื่อและนามสกุลตามหลักเลขศาสตร์และอักษรกาลกิณี',
+    link: {
+      href: 'https://name.mhalong.com',
+      label: 'name.mhalong.com',
+    },
+    logo: logoMhalong,
+  },
+  {
+    name: 'QRAFT',
+    description: 'QR Generator for everyone',
+    link: {
+      href: 'https://qr.mhalong.com',
+      label: 'qr.mhalong.com',
+    },
+    logo: logoMhalong,
+  },
+  {
+    name: 'Mhalong chords',
+    description: 'แอปพลิเคชันสำหรับดูคอร์ดกีตาร์และดนตรี ค้นหา เรียนรู้คอร์ดกีตาร์พร้อมแผนภาพและตำแหน่งนิ้วกดที่ละเอียด',
+    link: {
+      href: 'https://chords.mhalong.com',
+      label: 'chords.mhalong.com',
+    },
+    logo: logoMhalong,
+  }
 ]
 
 function LinkIcon (props: React.ComponentPropsWithoutRef<'svg'>) {
